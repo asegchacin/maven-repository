@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 19 12:06:02 COT 2021
+http\://bits.netbeans.org/nexus/content/groups/netbeans/.error=Could not transfer artifact com.sun.istack\:istack-commons\:pom\:3.0.10.redhat-00001 from/to netbeans (http\://bits.netbeans.org/nexus/content/groups/netbeans)\: Access denied to http\://bits.netbeans.org/nexus/content/groups/netbeans/com/sun/istack/istack-commons/3.0.10.redhat-00001/istack-commons-3.0.10.redhat-00001.pom. Error code 401, Repository decommissioned. Please refer to https\://netbeans.apache.org/about/oracle-transition.html for more information.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1626714361997
+@default-netbeans-http\://bits.netbeans.org/nexus/content/groups/netbeans/.lastUpdated=1626714362424
+https\://repo.maven.apache.org/maven2/.error=

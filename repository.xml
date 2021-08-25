@@ -1,0 +1,91 @@
+<repository lastmodified='20210825121708.326'>
+  <resource id='exposition-fiduprevisora-peoplesoft/1.0.0' symbolicname='exposition-fiduprevisora-peoplesoft' presentationname='exposition-fiduprevisora-peoplesoft' uri='com/fiduprevisora/exposition/exposition-fiduprevisora-peoplesoft/1.0/exposition-fiduprevisora-peoplesoft-1.0.jar' version='1.0.0'>
+    <size>60779</size>
+    <license>https://www.apache.org/licenses/LICENSE-2.0.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='exposition-fiduprevisora-peoplesoft'/>
+      <p n='presentationname' v='exposition-fiduprevisora-peoplesoft'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.application.config'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.module,com.fasterxml.jackson.databind.ser.std,javax.ws.rs.container,javax.ws.rs.ext'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.application.dto'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fasterxml.jackson.annotation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.application.route'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fiduprevisora.exposition.peoplesoft.cross.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.application.service'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fiduprevisora.exposition.peoplesoft.application.dto,io.swagger.annotations,javax.ws.rs,javax.ws.rs.core'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.cross.mapper'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.cross.util'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.core.type,org.apache.camel.builder'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.domain.bean'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fiduprevisora.exposition.peoplesoft.cross.util,org.apache.camel'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.infrastructure.bean'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='org.apache.camel'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.fiduprevisora.exposition.peoplesoft.infrastructure.proxy.route'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='com.fiduprevisora.exposition.peoplesoft.cross.util'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.annotation)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.annotation;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.core.type)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.core.type;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind.deser.std)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind.deser.std;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind.module)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind.module;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.databind.ser.std)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.databind.ser.std;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fasterxml.jackson.jaxrs.json)(version&gt;=2.9.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package com.fasterxml.jackson.jaxrs.json;version="[2.9,3)"</require>
+    <require name='package' filter='(&amp;(package=com.fiduprevisora.exposition.peoplesoft.application.dto))' extend='false' multiple='false' optional='false'>Import package com.fiduprevisora.exposition.peoplesoft.application.dto</require>
+    <require name='package' filter='(&amp;(package=com.fiduprevisora.exposition.peoplesoft.cross.util))' extend='false' multiple='false' optional='false'>Import package com.fiduprevisora.exposition.peoplesoft.cross.util</require>
+    <require name='package' filter='(&amp;(package=com.fiduprevisora.exposition.peoplesoft.domain.bean))' extend='false' multiple='false' optional='false'>Import package com.fiduprevisora.exposition.peoplesoft.domain.bean</require>
+    <require name='package' filter='(&amp;(package=com.fiduprevisora.exposition.peoplesoft.infrastructure.bean))' extend='false' multiple='false' optional='false'>Import package com.fiduprevisora.exposition.peoplesoft.infrastructure.bean</require>
+    <require name='package' filter='(&amp;(package=io.jsonwebtoken)(version&gt;=0.9.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package io.jsonwebtoken;version="[0.9,1)"</require>
+    <require name='package' filter='(&amp;(package=io.swagger.annotations)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package io.swagger.annotations;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.validation)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.validation;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.validation.constraints)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.validation.constraints;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.container)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.container;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.core)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.core;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.ws.rs.ext)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package javax.ws.rs.ext;version="[2.1,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel)(version&gt;=2.23.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel;version="[2.23,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.builder)(version&gt;=2.23.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.builder;version="[2.23,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.component.bean.validator)(version&gt;=2.23.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.component.bean.validator;version="[2.23,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.camel.model)(version&gt;=2.23.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.camel.model;version="[2.23,3)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.cxf.jaxrs.swagger)(version&gt;=3.3.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.cxf.jaxrs.swagger;version="[3.3,4)"</require>
+    <require name='package' filter='(&amp;(package=org.jasypt.encryption))' extend='false' multiple='false' optional='false'>Import package org.jasypt.encryption</require>
+    <require name='package' filter='(&amp;(package=org.jasypt.encryption.pbe))' extend='false' multiple='false' optional='false'>Import package org.jasypt.encryption.pbe</require>
+    <require name='package' filter='(&amp;(package=org.jasypt.iv))' extend='false' multiple='false' optional='false'>Import package org.jasypt.iv</require>
+    <require name='package' filter='(&amp;(package=org.jasypt.properties))' extend='false' multiple='false' optional='false'>Import package org.jasypt.properties</require>
+    <require name='package' filter='(&amp;(package=org.modelmapper)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.modelmapper;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=org.modelmapper.config)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.modelmapper.config;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=org.modelmapper.convention)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.modelmapper.convention;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=org.modelmapper.spi)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='false'>Import package org.modelmapper.spi;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.blueprint)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.service.blueprint;version="[1.0.0,2.0.0)"</require>
+    <require name='package' filter='(&amp;(package=org.slf4j)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.slf4j;version="[1.7,2)"</require>
+  </resource>
+</repository>
