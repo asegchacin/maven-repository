@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 19 12:12:23 COT 2021
+wagon-provider-api-2.10.jar>redhat-ga-repository=
+wagon-provider-api-2.10.pom>redhat-ga-repository=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jul 21 14:35:02 COT 2021
+camel-core-2.23.2.fuse-780036-redhat-00001-sources.jar>redhat-ga-repository=
+camel-core-2.23.2.fuse-780036-redhat-00001.jar>redhat-ga-repository=
+camel-core-2.23.2.fuse-780036-redhat-00001.pom>redhat-ga-repository=

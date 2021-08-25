@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 19 12:07:18 COT 2021
+listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar>redhat-ga-repository=
+listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom>redhat-ga-repository=
+listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom>central=
